@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/greeting',(req,res)=>{
-    res.send({greeting:'Welcome React Node App'})
+    res.send({greeting:'Welcome Sample'})
 });
 
 app.listen(process.env.PORT || 5000, () => {
